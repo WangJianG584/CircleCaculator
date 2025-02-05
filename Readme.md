@@ -4,7 +4,7 @@
 # 编译和执行
 ### Linux食用指南 
 为取得最佳效果，你需要一路CD到存放本源码的文件夹，然后执行以下命令
->gcc main.cpp -o CircleCaculator -Ofast
+>g++ main.cpp -o CircleCaculator -Ofast
 然后用./CircleCaculator打开程序
 ### Windows 用户必看
 使用Microsoft Visual Studio调试本程序
