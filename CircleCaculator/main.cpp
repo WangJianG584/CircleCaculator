@@ -155,7 +155,9 @@ int main()
         std::cout << "换算后圆的周长是：" << std::setprecision(9) << ConvertedPerimeter << ConvertLengthUnit << std::endl;
         std::cout << "换算后圆的面积是：" << std::setprecision(9) << ConvertedArea << ConvertLengthUnit << "²" << std::endl;
 
-        std::cout << "程序运行结束" << std::endl; return 0;
+        std::cout << "程序运行结束,回车退出" << std::endl; 
+        getchar();
+        return 0;
 
     }
 
