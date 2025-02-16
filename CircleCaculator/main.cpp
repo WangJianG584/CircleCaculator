@@ -1,6 +1,6 @@
 ﻿#include <iostream>
 #include <iomanip>
-#include <math.h>
+#include <cmath>
 
 
 #define MinimumConversionValueOfLength 10
@@ -9,7 +9,7 @@
 
 int main()
 {
-   
+    
     unsigned int inputtype;
     unsigned int UnitInitialEncoding = 0; std::string LengthUnit;
 
