@@ -77,7 +77,7 @@ int main()
 			Diameter = Circumference / pi;
 			Radius = Diameter / 2;
 			Square = Radius * Radius * pi;
-
+			break;
 		}
 		if (InputType == 4) 
 		{
@@ -86,7 +86,7 @@ int main()
 			Radius = sqrt(Square / pi);
 			Diameter = Radius * 2;
 			Circumference = 2 * pi * Radius;
-			
+			break;
 		}
 		else {
 			std::cout << "输入非法" << std::endl;OutlierDetection = true;
