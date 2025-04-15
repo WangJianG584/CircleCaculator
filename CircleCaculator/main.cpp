@@ -7,7 +7,7 @@
 
 int main()
 {
-	
+
 	unsigned short InputType;
 	unsigned short UnitInitialEncoding = 0; std::string LengthUnit;
 
@@ -15,9 +15,9 @@ int main()
 	double Radius, Diameter;
 	double Square, Circumference;
 
-	bool OutlierDetection;
+
 	do {
-		OutlierDetection = false;
+		
 		LengthUnit = "km";
 
 		std::cout << "你现在输入的长度单位是多少" << "(请输入英文缩写)" << std::endl;
@@ -43,12 +43,12 @@ int main()
 			break;
 		}
 		else {
-			std::cout << "输入非法" << std::endl;OutlierDetection = true;
+			std::cout << "输入非法" << std::endl; 
 		}
-	} while (OutlierDetection);
+	} while (true);
 	
 	do {
-		OutlierDetection = false;
+		
 		
 
 		InputType = 1;
@@ -89,9 +89,9 @@ int main()
 			break;
 		}
 		else {
-			std::cout << "输入非法" << std::endl;OutlierDetection = true;
+			std::cout << "输入非法" << std::endl;;
 		}
-	} while (OutlierDetection);
+	} while (true);
 
 	
 	std::cout << "圆的半径是：" << std::setprecision(9) << Radius << LengthUnit << std::endl;
@@ -110,7 +110,7 @@ int main()
 		unsigned short UnitTargetEncoding = 0; std::string ConvertLengthUnit;
 
 		do {
-			OutlierDetection = false;
+			;
 
 			ConvertLengthUnit = "km";
 			std::cout << "请输入要换算的单位缩写" << std::endl;
@@ -136,9 +136,9 @@ int main()
 				break;
 			}
 			else {
-				std::cout << "输入非法" << std::endl;OutlierDetection = true;
+				std::cout << "输入非法" << std::endl;
 			}
-		} while (OutlierDetection);
+		} while (true);
 
 		int ConvertUnitDistance = UnitInitialEncoding - UnitTargetEncoding;
 		if (ConvertUnitDistance == 0) {
